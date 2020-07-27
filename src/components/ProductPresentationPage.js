@@ -149,7 +149,40 @@ class ProductPresentationPage extends React.Component {
                 <div className="type">Chișinău Tare</div>
               </div>
             </Link>
-*/}
+            <Link
+              to="/produse/chisinau-bruna"
+              onClick={}
+            >
+              <div
+                className={
+                  this.state.display.id === "bruna"
+                    ? "product-container open"
+                    : "product-container"
+                }
+              >
+                <div className="brown">
+                  <img className="brown" src={bruna} alt="" />
+                </div>
+                <div className="type">Chișinău Brună</div>
+              </div>
+            </Link>
+            <Link
+              to="/produse/chisinau-fara-alcool"
+              onClick={}
+            >
+              <div
+                className={
+                  this.state.display.id === "nonalcool"
+                    ? "product-container open"
+                    : "product-container"
+                }
+              >
+                <div className="noalchool">
+                  <img className="noalchool" src={nonalcool} alt="" />
+                </div>
+                <div className="type">Chișinău Fără Alcool</div>
+              </div>
+            </Link> */}
         </div>
       </div>
     );
