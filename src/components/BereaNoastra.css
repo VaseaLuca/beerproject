@@ -1,0 +1,93 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.flex-section {
+  display:flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+.background-block{
+  position: relative;
+  height: 100vh;
+  display: flex;
+}
+video {
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+}
+.video-btn {
+  flex-wrap: nowrap;
+  align-self: center;
+  justify-content: center;
+  border: 2px solid #f7f7f7;
+  background-color: transparent;
+  color: white;
+  transition: 0.3s;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 22px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 60px;
+  left:50%;
+  margin-left: -150px;
+  text-align: center;
+  width: 300px;
+}
+.video-btn:hover{
+background-color: #f7f7f76f;
+transition: transform 500ms ease-in-out;
+}
+.arrow {
+  width: 24px;
+  height: 24px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transform: rotate(-45deg);
+  margin: 20px 0px;
+  position: absolute;
+  bottom: 16px;
+  left:50%;
+  margin-left: -15px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.arrow:hover {
+  opacity: 0.6;
+  transition: transform 500ms ease-in;
+}
+
+@media (max-width: 970px) {
+   .produse-footer {
+    display: none !important;
+    padding: 0 25px;
+
+  }
+}
+
+.Berea-Noastra {
+  padding: 35px 0 35px 0;
+}
+
+.produse-footer {
+  margin: 0 53px 0 53px;
+  padding: 0 15px 0 15px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: black;
+ 
+}
+.produse-footer i {
+  color: black;
+  margin: 0 10px 0 10px !important;
+  font-size: 19px !important;
+}
+
+.produse-footer i:hover {
+  transition: 0.17s ease-in-out;
+  opacity: 0.6;
+}

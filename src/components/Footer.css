@@ -1,0 +1,74 @@
+
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 25px;
+
+}
+.home-footer {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.Berea-Noastra {
+  color:black;
+}
+.side-footer {
+  color: #fff;
+
+  font-size: 22px;
+}
+
+@media (min-width: 971px)  {
+.footer {
+font-family: Montserrat,sans-serif;
+font-size: 16px;
+width: 1391.830px;
+text-align: right;
+}
+}
+
+.icon {
+margin: 0 5px 0 5px !important;
+color: #fff;
+
+}
+.icon:hover {
+  opacity: 0.67;
+  transition: 199ms ease-in-out;
+}
+
+
+@media (max-width: 970px) {
+.side-footer {
+  color: #fff;
+  display: block;
+}
+.home-footer {
+  display: none;
+}
+
+}
+@media (max-width: 500px) {
+  .side-footer {
+    color: #fff;
+
+    font-size: 16px;
+  }
+}
+
+.drawer-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding-left: 0;
+
+}

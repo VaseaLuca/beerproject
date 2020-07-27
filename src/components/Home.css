@@ -1,0 +1,152 @@
+/* body {
+  background-image: linear-gradient(#193f76, #2c3b76 100%);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+} */
+
+
+
+
+.home {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Montserrat,sans-serif;
+  background-image: linear-gradient(#193f76, #2c3b76 100%);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.screen {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+
+.introduction-section {
+  color: #fff;
+  font-weight: 700;
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.02em;
+  padding: 0 25px;
+  margin-bottom: 10px;
+}
+
+.know-more {
+  color: #fff;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.button {
+  font-family: Montserrat, sans-serif !important;
+  background-color: transparent !important;
+  border: 3px solid !important;
+  color: #fff !important;
+  border-radius: 0 !important;
+  margin: 0 0 14px 0 !important;
+  text-transform: uppercase !important;
+  padding: 15px 18px !important;
+}
+
+.backbeer {
+  width: 60%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+@media (max-width: 2400px) {
+  .screen {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1500px) {
+  .screen {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1090px) {
+  .screen {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .screen {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .introduction-section {
+    font-size: 6.5rem;
+  }
+
+  .know-more {
+    font-size: 12px;
+  }
+
+  .button {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .screen {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .introduction-section {
+    font-size: 5rem;
+  }
+
+  .button {
+    font-size: 14px !important;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .screen {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .introduction-section {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  .button {
+    font-size: 10px !important;
+  }
+
+}
