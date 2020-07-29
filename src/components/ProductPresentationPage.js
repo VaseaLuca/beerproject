@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import "./ProductPresentationPage.css";
 import blonda from "../assets/blonda.png";
 import tare from "../assets/bere-tare.png";
@@ -13,6 +12,7 @@ import petBlonda from "../assets/bere-pet-blonda.png";
 import petBlonda15 from '../assets/bere-pet-blonda15.png';
 import petBLonda2x from '../assets/bere-pet-blonda2x.png';
 import DynamicBlock from './DynamicBlock';
+
 
 
 class ProductPresentationPage extends React.Component {
@@ -69,25 +69,27 @@ class ProductPresentationPage extends React.Component {
         },
       ],
     };
-
   }
+ 
 
   render() {
-    
+
+
     return (
       <div className="product-presentation">
         {/* -----------Blond Beer Component --------- */}
-        <div className="products-overview" >
-          {console.log("from line 83", this.state.display)}
-           { this.state.display ?
-             <DynamicBlock
+        <div className="products-overview">
+          {this.state.display ? (
+            <DynamicBlock
               name={this.state.display.name}
               img={this.state.display.img}
               sliderImg={this.state.display.sliderImg}
               description={this.state.display.description}
               descriptionTitle={this.state.display.descriptionTitle}
-            /> : this.state.display
-  }
+            />
+          ) : (
+              <h2>Select a product</h2> 
+          )}
         </div>
 
         {/* ---------------------Product List-------------- */}
@@ -97,8 +99,8 @@ class ProductPresentationPage extends React.Component {
           <div className="product-type">
             {this.state.productList.map((item, idex) => (
               <div
-                onClick={()=> this.setState({ display:item })}
                 to={item.linkToProduct}
+                onClick={() => this.setState({ display: item })}
                 key={idex}
               >
                 <div

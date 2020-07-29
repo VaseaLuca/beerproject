@@ -20,11 +20,6 @@ const DynamicBlock = (props) => {
     const sliderImg = props.sliderImg.map((slide,index) => {
         return  <div key={index}><img src={slide} alt="" /> </div> 
       })
-    const img = props.img.map((img,index)=> {
-        return  <div className='element' key={index}> <img className='photo' scr={img} alt='' key={index}/>  </div>
-      })
-
-
 
   return (
     <div className="mother-block">
@@ -47,7 +42,7 @@ const DynamicBlock = (props) => {
         <div className="product-description">
           {props.description}
             <div className="product-photos">
-            { img }
+            { sliderImg }
             </div>
         </div>
       </div>

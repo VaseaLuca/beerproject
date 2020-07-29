@@ -3,20 +3,37 @@ import { Link } from 'react-router-dom';
 
 import "./Product.css";
 import bere_blonda from "../assets/beer-bottle.png";
-import bere_bruna from '../assets/bere-bruna.png';
-import bere_fara_alcool from '../assets/bere-fara-alcool.png';
-import bere_tare from '../assets/bere-tare.png';
+import tare from '../assets/bere-tare.png';
+import bruna from '../assets/bere-bruna.png';
+import nonalcool from '../assets/bere-fara-alcool.png';
 
 
 const Product = (props) =>  {
+  const producstList = [
+    {
+      id: "strong",
+      linkToProduct: "/produse/chisinau-tare",
+      mainImg: tare,
+      name: "Chișinău Tare"
+    },
+    {
+      id: "bruna",
+      linkToProduct: "/produse/chisinau-bruna",
+      mainImg: bruna,
+      name: "Chișinău Brună",
+    },
+    {
+      id: "nonalcool",
+      linkToProduct: "/produse/chisinau-fara-alcool",
+      mainImg: nonalcool,
+      name: "Chișinău fără Alcool",
+      },
+  ];
 
     return (
       <div className="product-overview">
         <div className="product">
-          <Link to={{
-                      pathname: '/produse/chisinau-blonda',
-                      state: { display: 'from product' }
-                    }} >
+          <Link to="/produse/chisinau-blonda">
             <div className="product-info">
               <div className="product-title">
                 <div className="Chisinau">Chișinău Blondă</div>
@@ -31,30 +48,16 @@ const Product = (props) =>  {
           </Link>
 
           <div className="product-area">
-            <Link to="/produse/chisinau-bruna"  >
-              <div className="product-detail">
-                <div className="product-image">
-                  <img className="bere" src={bere_bruna} alt="" />
+            {producstList.map((product, index) => (
+              <Link to={product.linkToProduct} key={index}>
+                <div className="product-detail">
+                  <div className="product-image">
+                    <img className="bere" src={product.mainImg} alt="" />
+                  </div>
+                  <div className="product-name">{product.name}</div>
                 </div>
-                <div className="product-name">Chișinău Brună</div>
-              </div>
-            </Link>
-            <Link to="/produse/chisinau-fara-alcool" >
-              <div className="product-detail">
-                <div className="product-image">
-                  <img className="bere" src={bere_fara_alcool} alt="" />
-                </div>
-                <div className="product-name">Chișinău Fară Alcool</div>
-              </div>
-            </Link>
-            <Link to="/produse/chisinau-tare" >
-              <div className="product-detail">
-                <div className="product-image">
-                  <img className="bere" src={bere_tare} alt="" />
-                </div>
-                <div className="product-name">Chișinău Tare</div>
-              </div>
-            </Link>
+              </Link>
+            ))}
           </div>
         </div>
       </div>

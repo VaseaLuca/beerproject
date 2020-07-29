@@ -64,20 +64,6 @@
   height: auto;
 }
 
-.strong img {
-  max-width: 75%;
-  height: auto;
-}
-
-.brown img {
-  max-width: 75%;
-  height: auto;
-}
-
-.noalchool img {
-  max-width: 75%;
-  height: auto;
-}
 
 @media(max-width:1500px) {
   .products-overview {
@@ -148,23 +134,6 @@
 
   }
 
-  .strong {
-    max-width: 35%;
-    height: auto;
-    margin: 0 auto;
-  }
-
-  .brown {
-    max-width: 35%;
-    height: auto;
-    margin: 0 auto;
-  }
-
-  .noalchool {
-    max-width: 35%;
-    height: auto;
-    margin: 0 auto;
-  }
 }
 
 @media(max-width:900px) {
