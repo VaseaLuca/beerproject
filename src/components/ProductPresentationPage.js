@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 
 
 import "./ProductPresentationPage.css";
@@ -66,7 +65,7 @@ class ProductPresentationPage extends React.Component {
           name: "Chișinău fără Alcool",
           descriptionTitle: "Descriere produs",
           description:
-            "Bere cu gust excepțional și aromă de malț, fără alcool.Conținutul de alcool: 0,5%",
+            "Bere cu gust excepțional și aromă de malț,fermentat fin prin procesul de fierbere lentă datorită tehnologiei Merlin.Conținutul de alcool: 0,5%",
         },
       ],
     };
@@ -78,7 +77,7 @@ class ProductPresentationPage extends React.Component {
     return (
       <div className="product-presentation">
         {/* -----------Blond Beer Component --------- */}
-        <div className="products-overview">
+        <div className="products-overview" >
           {console.log("from line 83", this.state.display)}
            { this.state.display ?
              <DynamicBlock
@@ -132,57 +131,8 @@ class ProductPresentationPage extends React.Component {
                 <div className="type">Chișinău Blondă</div>
               </div>
             </Link>
-            <Link
-              to="/produse/chisinau-tare"
-              onClick={}
-            >
-              <div
-                className={
-                  this.state.display.id === "strong"
-                    ? "product-container open"
-                    : "product-container"
-                }
-              >
-                <div className="strong">
-                  <img className="strong" src={tare} alt="" />
-                </div>
-                <div className="type">Chișinău Tare</div>
-              </div>
-            </Link>
-            <Link
-              to="/produse/chisinau-bruna"
-              onClick={}
-            >
-              <div
-                className={
-                  this.state.display.id === "bruna"
-                    ? "product-container open"
-                    : "product-container"
-                }
-              >
-                <div className="brown">
-                  <img className="brown" src={bruna} alt="" />
-                </div>
-                <div className="type">Chișinău Brună</div>
-              </div>
-            </Link>
-            <Link
-              to="/produse/chisinau-fara-alcool"
-              onClick={}
-            >
-              <div
-                className={
-                  this.state.display.id === "nonalcool"
-                    ? "product-container open"
-                    : "product-container"
-                }
-              >
-                <div className="noalchool">
-                  <img className="noalchool" src={nonalcool} alt="" />
-                </div>
-                <div className="type">Chișinău Fără Alcool</div>
-              </div>
-            </Link> */}
+
+ */}
         </div>
       </div>
     );
