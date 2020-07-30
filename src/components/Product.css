@@ -13,12 +13,14 @@
 }
 
 @media all and (max-width:1270px) {
+@viewport {width: auto }
   .product-overview {
     width: 90%
   }
 }
 
 @media all and (max-width:970px) {
+@viewport {width: auto }
   .product-overview {
     width: 100%
   }
@@ -65,7 +67,7 @@ img.bere-blonda {
 }
 
 @media all and (max-width:970px) {
-@viewport {width: 970px }
+@viewport {width: auto }
   .Chisinau {
     font-size: 30px;
   }
@@ -78,7 +80,7 @@ img.bere-blonda {
 }
 
 @media all and (max-width:580px) {
-@viewport {width: 580px }
+@viewport {width: auto }
   .Chisinau {
     font-size: 22px;
   }
@@ -90,7 +92,7 @@ img.bere-blonda {
 }
 
 @media all and (max-width:420px) {
-@viewport {width: 420px }
+@viewport {width: auto }
   .Chisinau {
     font-size: 17px;
   }
@@ -102,7 +104,7 @@ img.bere-blonda {
 }
 
 @media all and (max-width:320px) {
-@viewport {width: 320px }
+@viewport {width: auto }
   .Chisinau {
     font-size: 14px;
   }
@@ -135,7 +137,7 @@ img.bere-blonda {
 }
 
 @media all and (max-width:970px) {
-@viewport {width: 970px }
+@viewport {width: auto }
   .product-title {
     height: 250px;
   }
@@ -151,7 +153,7 @@ img.bere-blonda {
 }
 
 @media all and (max-width:970px) {
-@viewport {width: 970px }
+@viewport {width: auto }
   .product-img {
     height: 250px;
   }
@@ -211,6 +213,7 @@ margin-bottom: 15px ;
 }
 
 @media all and (max-width:2570px) {
+@viewport {width: auto }
   .product-detail {
     height: auto;
     padding: 0 15px;
@@ -221,17 +224,20 @@ margin-bottom: 15px ;
 }
 
 @media all and (max-width:2060px) {
+@viewport {width: auto }
   .product-name {
     font-size: 18px;
   }
 }
 
 @media all and (max-width:1760px) {
+@viewport {width: auto }
   .product-name {
     font-size: 16px;
   }
 }
 @media all and (max-width:1520px) {
+@viewport {width: auto }
   .product-name {
     font-size: 15px;
   }
@@ -240,6 +246,7 @@ margin-bottom: 15px ;
 
 
 @media all and (max-width:840px) {
+@viewport {width: auto }
   .product-overview {
     width: 90%;
   }
@@ -263,6 +270,7 @@ margin-bottom: 15px ;
 
 
 @media all and (max-width:840px) {
+@viewport {width: auto }
   a:hover {
     opacity: 0.91;
     transform: scale(1.04);

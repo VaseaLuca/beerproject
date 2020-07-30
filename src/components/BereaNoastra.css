@@ -61,7 +61,7 @@ transition: transform 500ms ease-in-out;
 }
 
 @media all and (max-width: 970px) {
-  @viewport {width: 970px }
+  @viewport {width: auto }
    .produse-footer {
     display: none !important;
     padding: 0 25px;

@@ -66,7 +66,7 @@
 
 
 @media all and (max-width:1500px) {
-@viewport {width: 1500px }
+@viewport {width: auto }
   .products-overview {
     max-width: 1320px;
   }
@@ -85,7 +85,7 @@
 }
 
 @media all and (max-width:1300px) {
-@viewport {width: 1300px }
+@viewport {width: auto }}
   .products-overview {
     max-width: 1100px;
   }
@@ -105,7 +105,7 @@
 }
 
 @media all and (max-width:1090px) {
-@viewport {width: 1090px }
+@viewport {width: auto }}
   .products-overview {
     max-width: 768px;
   }
@@ -140,7 +140,7 @@
 }
 
 @media all and (max-width:900px) {
-@viewport {width: 900px }
+@viewport {width: auto }
   .product-list-title {
     max-width: 700px;
   }
@@ -155,7 +155,7 @@
 }
 
 @media all and (max-width:700px) {
-@viewport {width: 700px }
+@viewport {width: auto }
   .mother-block {
     flex-wrap: wrap;
     justify-content: center;

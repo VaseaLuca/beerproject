@@ -74,7 +74,7 @@
 
 
 @media all and (max-width: 2400px) {
-@viewport {width: 2400px }
+@viewport {width: auto }
   .screen {
     max-width: 1500px;
     margin-left: auto;
@@ -83,7 +83,7 @@
 }
 
 @media all and (max-width: 1500px) {
-@viewport {width: 1500px}
+@viewport {width: auto}
   .screen {
     max-width: 1300px;
     margin-left: auto;
@@ -92,7 +92,7 @@
 }
 
 @media all and (max-width: 1090px) {
-@viewport {width: 1090px }
+@viewport {width: auto }
   .screen {
     max-width: 900px;
     margin-left: auto;
@@ -101,7 +101,7 @@
 }
 
 @media all and (max-width: 900px) {
-@viewport {width: 900px }
+@viewport {width: auto }
   .screen {
     max-width: 700px;
     margin-left: auto;
@@ -122,7 +122,7 @@
 }
 
 @media all and (max-width: 700px) {
-@viewport {width: 700px }
+@viewport {width: auto }
   .screen {
     max-width: 600px;
     margin-left: auto;
@@ -139,7 +139,7 @@
 }
 
 @media all and (max-width: 600px) {
-@viewport {width: 600px }
+@viewport {width: auto }
   .screen {
     max-width: 300px;
     margin-left: auto;

@@ -23,7 +23,7 @@
 }
 
 @media all and (max-width: 500px) {
-@viewport {width: 500px }
+@viewport {width: auto }
   .toggle-button {
     width: 25px;
     
