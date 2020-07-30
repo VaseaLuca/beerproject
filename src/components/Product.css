@@ -1,6 +1,5 @@
 .product {
   margin-top: 80px;
-  
   width: 100%;
 }
 
@@ -13,14 +12,12 @@
 }
 
 @media all and (max-width:1270px) {
-@viewport {width: auto }
   .product-overview {
     width: 90%
   }
 }
 
 @media all and (max-width:970px) {
-@viewport {width: auto }
   .product-overview {
     width: 100%
   }
@@ -56,9 +53,7 @@ button.info {
 }
 button.info:hover {
   background-color: #b5b5b580;
-
 }
-
 
 img.bere-blonda {
   transition: all 0.3s;
@@ -67,20 +62,15 @@ img.bere-blonda {
 }
 
 @media all and (max-width:970px) {
-@viewport {width: auto }
   .Chisinau {
     font-size: 30px;
   }
-
   button.info {
     font-size: 13px;
     padding: 5px 22px;
   }
-
 }
-
 @media all and (max-width:580px) {
-@viewport {width: auto }
   .Chisinau {
     font-size: 22px;
   }
@@ -90,36 +80,27 @@ img.bere-blonda {
     padding: 4px 14px;
   }
 }
-
 @media all and (max-width:420px) {
-@viewport {width: auto }
   .Chisinau {
     font-size: 17px;
   }
-
   img.bere-blonda {
     margin-top: -19px;
     height: 135%;
   }
 }
-
 @media all and (max-width:320px) {
-@viewport {width: auto }
   .Chisinau {
     font-size: 14px;
   }
-
   button.info {
     font-size: 8px;
   }
-
   img.bere-blonda {
     margin-top: -9px;
     height: 120%;
   }
-
 }
-
 .product-title {
   display: flex;
   flex-direction: row;
@@ -133,33 +114,24 @@ img.bere-blonda {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: 50%;
-
 }
-
 @media all and (max-width:970px) {
-@viewport {width: auto }
   .product-title {
     height: 250px;
   }
 }
-
 .product-img {
   background-color: #f3f3f3;
   height: 400px;
   overflow-y: hidden;
   transition: 0.3s;
   width: 100%;
-
 }
-
 @media all and (max-width:970px) {
-@viewport {width: auto }
   .product-img {
     height: 250px;
   }
 }
-
-
 
 .product-area {
   display: flex;
@@ -213,7 +185,6 @@ margin-bottom: 15px ;
 }
 
 @media all and (max-width:2570px) {
-@viewport {width: auto }
   .product-detail {
     height: auto;
     padding: 0 15px;
@@ -222,31 +193,23 @@ margin-bottom: 15px ;
     padding-bottom: 20px;
   }
 }
-
 @media all and (max-width:2060px) {
-@viewport {width: auto }
   .product-name {
     font-size: 18px;
   }
 }
-
 @media all and (max-width:1760px) {
-@viewport {width: auto }
   .product-name {
     font-size: 16px;
   }
 }
 @media all and (max-width:1520px) {
-@viewport {width: auto }
   .product-name {
     font-size: 15px;
   }
 }
 
-
-
 @media all and (max-width:840px) {
-@viewport {width: auto }
   .product-overview {
     width: 90%;
   }
@@ -270,7 +233,6 @@ margin-bottom: 15px ;
 
 
 @media all and (max-width:840px) {
-@viewport {width: auto }
   a:hover {
     opacity: 0.91;
     transform: scale(1.04);

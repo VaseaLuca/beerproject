@@ -1,10 +1,8 @@
 .product-presentation {
   background-color: #fff;
-
   display: flex;
   flex-direction: column;
 }
-
 .products-overview {
   display: flex;
   justify-content: center;
@@ -14,7 +12,6 @@
   margin-right: auto;
   max-width: 1320px;
 }
-
 .product-list-title {
   text-transform: uppercase;
   font-weight: 700;
@@ -28,21 +25,17 @@
   justify-content: flex-end;
   align-self: flex-end;
 }
-
 .familia-chisinau {
   margin-bottom: 40px;
 }
-
 .product-type {
   display: flex;
   justify-content: center;
   font-size: 18px;
 }
-
 .type {
   margin: 15px;
 }
-
 .product-container {
   max-width: 300px;
   height: auto;
@@ -51,110 +44,79 @@
   padding-bottom:1px;
   white-space: nowrap;
   cursor: pointer;
-
 }
-
 .product-container.open {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .08);
   /* you stoped HERE !!*/
 }
-
 .blond img {
   max-width: 75%;
   height: auto;
 }
-
-
 @media all and (max-width:1500px) {
-@viewport {width: auto }
   .products-overview {
     max-width: 1320px;
   }
-
   .product-list-title {
     max-width: 1300px;
   }
-
   .familia-chisinau {
     font-size: 26px;
   }
-
   .product-type {
     font-size: 17px;
   }
 }
-
 @media all and (max-width:1300px) {
-@viewport {width: auto }}
   .products-overview {
     max-width: 1100px;
   }
-
   .product-list-title {
     max-width: 1100px;
   }
-
   .familia-chisinau {
     font-size: 24px;
   }
-
   .product-type {
     font-size: 16px;
   }
-
-
 @media all and (max-width:1090px) {
-@viewport {width: auto }
   .products-overview {
     max-width: 768px;
   }
-
   .product-list-title {
     max-width: 768px;
   }
-
   .familia-chisinau {
     font-size: 22px;
   }
-
   .product-type {
     font-size: 16px;
   }
-
   .product-type {
     flex-wrap: wrap;
   }
-
   .product-container {
     margin-bottom: 15px;
   }
-
   .blond {
     max-width: 35%;
     height: auto;
     margin: 0 auto;
-
   }
-
 }
-
 @media all and (max-width:900px) {
-@viewport {width: auto }
   .product-list-title {
     max-width: 700px;
   }
-
   .familia-chisinau {
     font-size: 20px;
   }
-
   .product-type {
     font-size: 15px;
   }
 }
-
 @media all and (max-width:700px) {
-@viewport {width: auto }
   .mother-block {
     flex-wrap: wrap;
     justify-content: center;
@@ -162,14 +124,10 @@
     margin-left: 25px;
     margin-right: 25px;
   }
-
   .first-block {
     width: 320px ;
     height: 450px
-
   }
-
-
   .slick-slider {
     width: 320px !important;
   }
@@ -178,31 +136,23 @@
     padding: 50px 0 0 0;
     max-width: 320px;
   }
-
   .product-description {
     font-size: 14px;
   }
-
   .product-presentation {
-
   }
-
   .product-photos .element {
     padding-right: 0px;
   }
-
   .product-photos .photo {
     height: 80%;
   }
-
   .product-list-title {
     max-width: 600px;
   }
-
   .familia-chisinau {
     font-size: 18px;
   }
-
   .product-type {
     font-size: 15px;
     line-height: 10px;

@@ -66,7 +66,6 @@ padding: 50px 50px 0 50px;
 }
 
 @media all and (max-width:1090px) {
-@viewport {width: auto }
 .mother-block {
   display: flex;
   margin-left: auto;
@@ -88,7 +87,6 @@ padding: 50px 50px 0 50px;
 }
 
 @media all and (max-width:900px) {
-@viewport {width: auto }
 .mother-block {
   display: flex;
   margin-left: auto;
@@ -104,7 +102,6 @@ padding: 50px 50px 0 50px;
 
 }
 @media all and (max-width:700px) {
-@viewport {width: auto }
 .first-block div {
   height: 400px;
   width: 320px;
