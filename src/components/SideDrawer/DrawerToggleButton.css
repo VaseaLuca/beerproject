@@ -22,7 +22,7 @@
   background: #fff;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .toggle-button {
     width: 25px;
     

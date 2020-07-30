@@ -51,7 +51,7 @@
   border-bottom: 1px solid #f6b332;
 }
 
-@media (max-width: 970px) {
+@media only screen and (max-width: 970px) {
   .toolbar_navigation-items {
     display: none;  
   }
@@ -62,7 +62,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .toolbar_logo img {
     width: 100%;
     width: 100px;
@@ -78,7 +78,7 @@
   }
 }
 
-@media (min-width: 971px) {
+@media only screen and (min-width: 971px) {
   .toolbar_toggle-button {
     display: none
   }

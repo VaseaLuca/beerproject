@@ -65,7 +65,7 @@ padding: 50px 50px 0 50px;
   transform: scale(1.14);
 }
 
-@media(max-width:1090px) {
+@media only screen and (max-width:1090px) {
 .mother-block {
   display: flex;
   margin-left: auto;
@@ -86,7 +86,7 @@ padding: 50px 50px 0 50px;
 
 }
 
-@media(max-width:900px) {
+@media only screen and (max-width:900px) {
 .mother-block {
   display: flex;
   margin-left: auto;
@@ -101,7 +101,7 @@ padding: 50px 50px 0 50px;
 }
 
 }
-@media(max-width:700px) {
+@media only screen and (max-width:700px) {
 
 .first-block div {
   height: 400px;

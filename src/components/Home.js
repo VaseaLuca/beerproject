@@ -10,7 +10,7 @@ const Home = () => {
     <div className="home">
       <div className="screen">
           <div className="introduction-section">Mereu între prieteni</div>
-          <div className="know-more">Află mai mult despre Berea Chișin</div>
+          <div className="know-more">Află mai mult despre Berea Chișinău</div>
           <Link to="/produse">
             <button className="massive ui button">Află Mai Mult</button>
           </Link>
