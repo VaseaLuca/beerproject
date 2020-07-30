@@ -60,7 +60,7 @@ transition: transform 500ms ease-in-out;
   transition: transform 500ms ease-in;
 }
 
-@media only screen and (max-width: 970px) {
+@media all and (max-width: 970px) {
    .produse-footer {
     display: none !important;
     padding: 0 25px;

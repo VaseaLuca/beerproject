@@ -12,13 +12,13 @@
   width: 65%;
 }
 
-@media(max-width:1270px) {
+@media all and (max-width:1270px) {
   .product-overview {
     width: 90%
   }
 }
 
-@media(max-width:970px) {
+@media all and (max-width:970px) {
   .product-overview {
     width: 100%
   }
@@ -64,7 +64,7 @@ img.bere-blonda {
   height: 160%;
 }
 
-@media(max-width:970px) {
+@media all and (max-width:970px) {
   .Chisinau {
     font-size: 30px;
   }
@@ -76,7 +76,7 @@ img.bere-blonda {
 
 }
 
-@media(max-width:580px) {
+@media all and (max-width:580px) {
   .Chisinau {
     font-size: 22px;
   }
@@ -87,7 +87,7 @@ img.bere-blonda {
   }
 }
 
-@media(max-width:420px) {
+@media all and (max-width:420px) {
   .Chisinau {
     font-size: 17px;
   }
@@ -98,7 +98,7 @@ img.bere-blonda {
   }
 }
 
-@media(max-width:320px) {
+@media all and (max-width:320px) {
   .Chisinau {
     font-size: 14px;
   }
@@ -130,7 +130,7 @@ img.bere-blonda {
 
 }
 
-@media(max-width:970px) {
+@media all and (max-width:970px) {
   .product-title {
     height: 250px;
   }
@@ -145,7 +145,7 @@ img.bere-blonda {
 
 }
 
-@media(max-width:970px) {
+@media all and (max-width:970px) {
   .product-img {
     height: 250px;
   }
@@ -204,7 +204,7 @@ a:hover {
 margin-bottom: 15px ;
 }
 
-@media(max-width:2570px) {
+@media all and (max-width:2570px) {
   .product-detail {
     height: auto;
     padding: 0 15px;
@@ -214,18 +214,18 @@ margin-bottom: 15px ;
   }
 }
 
-@media(max-width:2060px) {
+@media all and (max-width:2060px) {
   .product-name {
     font-size: 18px;
   }
 }
 
-@media(max-width:1760px) {
+@media all and (max-width:1760px) {
   .product-name {
     font-size: 16px;
   }
 }
-@media(max-width:1520px) {
+@media all and (max-width:1520px) {
   .product-name {
     font-size: 15px;
   }
@@ -233,7 +233,7 @@ margin-bottom: 15px ;
 
 
 
-@media(max-width:840px) {
+@media all and (max-width:840px) {
   .product-overview {
     width: 90%;
   }
@@ -256,7 +256,7 @@ margin-bottom: 15px ;
 }
 
 
-@media(max-width:840px) {
+@media all and (max-width:840px) {
   a:hover {
     opacity: 0.91;
     transform: scale(1.04);

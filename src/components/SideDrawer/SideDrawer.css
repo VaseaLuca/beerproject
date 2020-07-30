@@ -55,13 +55,13 @@
 
 
 
-@media only screen and (min-widh: 971px) {
+@media all and (min-widh: 971px) {
   .side-drawer {
     display: none;
   }
 
 }
-@media only screen and (max-width: 970px) {
+@media all and (max-width: 970px) {
   .side-footer {
     display: block;
     color: #042e73fa;
@@ -69,7 +69,7 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
   .side-drawer a {
     color: #fff;
     font-size: 15px;
@@ -80,7 +80,7 @@
   }
 
 }
-@media only screen and (max-width: 375px) {
+@media all and (max-width: 375px) {
  .side-drawer ul {
     height: 50%;
   }

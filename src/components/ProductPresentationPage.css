@@ -65,7 +65,7 @@
 }
 
 
-@media only screen and (max-width:1500px) {
+@media all and (max-width:1500px) {
   .products-overview {
     max-width: 1320px;
   }
@@ -83,7 +83,7 @@
   }
 }
 
-@media only screen and (max-width:1300px) {
+@media all and (max-width:1300px) {
   .products-overview {
     max-width: 1100px;
   }
@@ -102,7 +102,7 @@
 
 }
 
-@media only screen and (max-width:1090px) {
+@media all and (max-width:1090px) {
   .products-overview {
     max-width: 768px;
   }
@@ -136,7 +136,7 @@
 
 }
 
-@media only screen and (max-width:900px) {
+@media all and (max-width:900px) {
   .product-list-title {
     max-width: 700px;
   }
@@ -150,7 +150,7 @@
   }
 }
 
-@media only screen and (max-width:700px) {
+@media all and (max-width:700px) {
   .mother-block {
     flex-wrap: wrap;
     justify-content: center;
