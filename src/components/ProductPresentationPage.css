@@ -102,10 +102,9 @@
     font-size: 16px;
   }
 
-}
 
 @media all and (max-width:1090px) {
-@viewport {width: auto }}
+@viewport {width: auto }
   .products-overview {
     max-width: 768px;
   }
