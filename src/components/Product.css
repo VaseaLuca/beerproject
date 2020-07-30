@@ -65,6 +65,7 @@ img.bere-blonda {
 }
 
 @media all and (max-width:970px) {
+@viewport {width: 970px }
   .Chisinau {
     font-size: 30px;
   }
@@ -77,6 +78,7 @@ img.bere-blonda {
 }
 
 @media all and (max-width:580px) {
+@viewport {width: 580px }
   .Chisinau {
     font-size: 22px;
   }
@@ -88,6 +90,7 @@ img.bere-blonda {
 }
 
 @media all and (max-width:420px) {
+@viewport {width: 420px }
   .Chisinau {
     font-size: 17px;
   }
@@ -99,6 +102,7 @@ img.bere-blonda {
 }
 
 @media all and (max-width:320px) {
+@viewport {width: 320px }
   .Chisinau {
     font-size: 14px;
   }
@@ -131,6 +135,7 @@ img.bere-blonda {
 }
 
 @media all and (max-width:970px) {
+@viewport {width: 970px }
   .product-title {
     height: 250px;
   }
@@ -146,6 +151,7 @@ img.bere-blonda {
 }
 
 @media all and (max-width:970px) {
+@viewport {width: 970px }
   .product-img {
     height: 250px;
   }

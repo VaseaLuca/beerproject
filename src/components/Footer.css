@@ -34,6 +34,7 @@ padding: 35px 150px;
 }
 
 @media all and (min-width: 971px) {
+@viewport {width: 971px }
 .footer {
 font-family: Montserrat,sans-serif;
 font-size: 16px;
@@ -54,6 +55,7 @@ color: #fff;
 
 
 @media all and (max-width: 970px) {
+@viewport {width: 970px }
 .side-footer {
   color: #fff;
   display: block;
@@ -64,6 +66,7 @@ color: #fff;
 
 }
 @media all and (max-width: 500px) {
+@viewport {width: 500px }
   .side-footer {
     color: #fff;
 

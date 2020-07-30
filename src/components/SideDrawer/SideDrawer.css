@@ -56,12 +56,14 @@
 
 
 @media all and (min-widh: 971px) {
+@viewport {width: 971px }
   .side-drawer {
     display: none;
   }
 
 }
 @media all and (max-width: 970px) {
+@viewport {width: 970px }
   .side-footer {
     display: block;
     color: #042e73fa;
@@ -70,6 +72,7 @@
 }
 
 @media all and (max-width: 500px) {
+@viewport {width: 500px }
   .side-drawer a {
     color: #fff;
     font-size: 15px;
@@ -81,6 +84,7 @@
 
 }
 @media all and (max-width: 375px) {
+@viewport {width: 375px }
  .side-drawer ul {
     height: 50%;
   }
