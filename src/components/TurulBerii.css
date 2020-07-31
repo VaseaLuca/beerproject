@@ -120,7 +120,6 @@
   }
 }
 @media all and (max-width: 900px) {
-
 .main-constructor {
    max-width: 700px;
    margin-left: auto;
@@ -132,9 +131,15 @@
    margin-left: 25px;
    border-radius: 4px 4px 0 0;
   }
+.tour-title{
+  font-weight: 600;
+  font-size: 22px;
+}
 
 .description {
    font-size: 16px;
+    font-weight: 500;
+    font-size: 15px;
   }
 
 .text {
@@ -151,24 +156,63 @@ margin-left: 0px;
   }
 .tourPhotoColumn {
   display: flex;
-  max-width: 507px;
-  height: 250px;
+  max-width: 496px;
+  height: 196px;
   margin-left: auto;
   margin-right: auto;
 }
 .tourPhotoColumn-img {
-  max-width: 507px;
+  max-width: 496px;
   border-radius: 0 0 4px 4px;
 }
 
 }
 
 @media all and (max-width: 700px) {
-  .main-constructor {
+.constructor{
+  height: 150vh;
+}
+
+.main-constructor {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
+.tour-title {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.tour-description{
+  line-height: 1.5rem;
+  font-weight: lighter;
+}
+.text {
+  font-size: 14px;
+  font-weight: 600;
+}
+.ul-left {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.orange-btn {
+padding: 13px 20px;
+
+}
+.tourPhotoColumn {
+  display: flex;
+  max-width: 250px;
+  height: 98px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tourPhotoColumn-img {
+  max-width: 250px;
+  border-radius: 0 0 4px 4px;
+}
 }
 
 @media all and (max-width: 600px) {
@@ -177,5 +221,60 @@ margin-left: 0px;
     margin-left: auto;
     margin-right: auto;
   }
+.constructor {
+  height: 160vh;
+}
 
 }
+@media all and (max-width:370px) {
+.constructor {
+  height: 200vh;
+}
+
+.main-constructor {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tour-title {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.tour-description {
+  line-height: 1.5rem;
+  font-weight: lighter;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ul-left {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.orange-btn {
+  padding: 13px 20px;
+
+}
+
+.tourPhotoColumn {
+  display: flex;
+  max-width: 270px;
+  height: 98px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tourPhotoColumn-img {
+  max-width: 270px;
+  border-radius: 0 0 4px 4px;
+  }
+}
+
