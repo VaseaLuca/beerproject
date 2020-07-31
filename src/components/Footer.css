@@ -27,8 +27,6 @@
 .footer-turul{
 color: #fff;
 font-size: 19px;
-padding: 35px 150px;
-
 }
 
 @media all and (min-width: 971px) {
@@ -59,7 +57,9 @@ color: #fff;
 .home-footer {
   display: none;
 }
-
+.footer-turul {
+  display:none;
+}
 }
 @media all and (max-width: 500px) {
   .side-footer {

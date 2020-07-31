@@ -16,19 +16,22 @@
 .main-constructor {
   display: flex;
   justify-content: center;
+
 }
 
 .image {
   justify-content: flex-end;
   display: flex;
+  margin-left:25px
 }
 
-.image img {
-  vertical-align: middle;
+.tour-img {
   max-width: 350px;
-  height: auto;
-  box-sizing: inherit;
+  border-radius: 4px 0 0 4px;
+}
 
+.tourPhotoColumn {
+ display: none;
 }
 
 .tour-description {
@@ -42,6 +45,7 @@
   text-align: center;
   line-height: 2rem;
   font-family: Montserrat, sans-serif;
+  margin-right: 25px;
 }
 
 .description {
@@ -52,9 +56,9 @@
 }
 
 .tour-title {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 25px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 
 .ul-left {
@@ -83,4 +87,95 @@
   text-transform: uppercase;
 }
 
-.footer-turul {}
+.footer-section {
+  display: flex; 
+  width: 900px;
+  padding: 45px 0;
+}
+
+@media all and (max-width: 2400px) {
+  .main-constructor {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-width: 1500px) {
+  .main-constructor {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-width: 1090px) {
+  .main-constructor {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-section {
+    display: none;
+  }
+}
+@media all and (max-width: 900px) {
+
+.main-constructor {
+   max-width: 700px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+  }
+.tour-description{
+   align-items: center;
+   margin-left: 25px;
+   border-radius: 4px 4px 0 0;
+  }
+
+.description {
+   font-size: 16px;
+  }
+
+.text {
+  font-size: 16px;
+  }
+
+.tour-img {
+display: none;
+  }
+
+.image {
+margin-left: 0px;
+
+  }
+.tourPhotoColumn {
+  display: flex;
+  max-width: 507px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tourPhotoColumn-img {
+  max-width: 507px;
+  border-radius: 0 0 4px 4px;
+}
+
+}
+
+@media all and (max-width: 700px) {
+  .main-constructor {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .main-constructor {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
