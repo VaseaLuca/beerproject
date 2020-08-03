@@ -8,26 +8,31 @@
   color: #fff;
   padding: 0 25px;
 
-}
+  }
 .home-footer {
   color: #fff;
   font-size: 18px;
   margin-top: 15px;
-}
+  }
 
 .Berea-Noastra {
   color:black;
-}
+  }
 .side-footer {
   color: #fff;
 
   font-size: 22px;
-}
+  }
 
 .footer-turul{
 color: #fff;
 font-size: 19px;
-}
+  }
+
+.footer-contact{
+color: #fff;
+font-size: 19px;
+  }
 
 @media all and (min-width: 971px) {
 .footer {
@@ -35,14 +40,14 @@ font-family: Montserrat,sans-serif;
 font-size: 16px;
 width: 1391.830px;
 text-align: right;
-}
+  }
 }
 
 .icon {
 margin: 0 5px 0 5px !important;
 color: #fff;
 
-}
+  }
 .icon:hover {
   opacity: 0.67;
   transition: 199ms ease-in-out;
@@ -53,13 +58,16 @@ color: #fff;
 .side-footer {
   color: #fff;
   display: block;
-}
+  }
 .home-footer {
   display: none;
-}
+  }
 .footer-turul {
-  display:none;
-}
+  display: none;
+  }
+.footer-contact{
+  display: none;
+  }
 }
 @media all and (max-width: 500px) {
   .side-footer {

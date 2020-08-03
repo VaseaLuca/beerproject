@@ -1,0 +1,142 @@
+.background-block{
+  background-image: url(../assets/background-turul-black.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 120px auto 0 auto;
+  height: 450px;
+}
+
+.contact-list {
+  display: flex;
+  color: #fff;
+  font-size: 23px;
+  line-height: 2.5rem;
+  margin-right: 25px;
+  margin-left: 25px;
+  align-items: center;
+}
+.contact-list a {
+  color: #fff;
+}
+
+.ul-list {
+  list-style-type: none;
+}
+.info-list{
+  margin-bottom: 10px;
+}
+
+.googleMaps {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.contact-footer {
+  position: fixed;
+  bottom:0;
+  left: 50%;
+  
+  padding: 70px;
+  margin-left: -150px;
+  display:flex;
+  align-items: flex-end;
+}
+
+@media all and (max-width: 4700px) {
+  iframe {
+    width: 750px;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+@media all and (max-width: 2400px) {
+  .main-block{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  iframe {
+    width: 550px;
+  }
+}
+
+@media all and (max-width: 1500px) {
+.main-block {
+  max-width: 1090px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  iframe {
+    width: auto;
+  }
+}
+
+@media all and (max-width: 1090px) {
+.main-block {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+@media all and (max-width: 900px) {
+.background-block{
+  height: 140vh;
+}
+.main-block {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+
+@media all and (max-width: 700px) {
+
+  .main-block {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  iframe {
+    width: auto;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .background-block {
+    height: 170vh;
+  }
+ .main-block {
+   max-width: 370px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+  iframe {
+    width: auto;
+  }
+}
+
+@media all and (max-width:370px) {
+  .background-block{
+    height: 150vh;
+  }
+  .main-block {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  iframe {
+    width: auto;
+  }
+}
