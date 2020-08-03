@@ -53,6 +53,11 @@
   max-width: 75%;
   height: auto;
 }
+
+.productButton {
+  background:transparent;
+  border: none;
+}
 @media all and (max-width:1500px) {
   .products-overview {
     max-width: 1320px;

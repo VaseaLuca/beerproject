@@ -46,10 +46,7 @@ super(props)
             <main className='main'>
               <Route path="/" exact component={Home} />
               <Route path="/produse" exact component={BereaNoastra} />
-              <Route path="/produse/chisinau-blonda" exact component={ProductPresentationPage}  />
-              <Route path="/produse/chisinau-bruna" exact component={ProductPresentationPage} />
-              <Route path='/produse/chisinau-fara-alcool' exact component={ProductPresentationPage} />
-              <Route path='/produse/chisinau-tare' exact component={ProductPresentationPage} />
+              <Route path="/produse/:name" exact component={ProductPresentationPage}  />
               <Route path="/turul-berii" exact component={TurulBerii} />
               <Route path="/despre-noi" exact component={DespreNoi} />
               <Route path="/blog" exact component={Blog} />

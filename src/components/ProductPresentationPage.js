@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from 'react-router-dom';
 import "./ProductPresentationPage.css";
 import blonda from "../assets/blonda.png";
 import tare from "../assets/bere-tare.png";
@@ -70,11 +70,8 @@ class ProductPresentationPage extends React.Component {
       ],
     };
   }
- 
 
   render() {
-
-
     return (
       <div className="product-presentation">
         {/* -----------Blond Beer Component --------- */}
@@ -88,7 +85,7 @@ class ProductPresentationPage extends React.Component {
               descriptionTitle={this.state.display.descriptionTitle}
             />
           ) : (
-              <h2>Select a product</h2> 
+            <h2>Select a product</h2>
           )}
         </div>
 
@@ -97,25 +94,27 @@ class ProductPresentationPage extends React.Component {
         <div className="product-list-title">
           <div className="familia-chisinau">Familia Chișinău</div>
           <div className="product-type">
-            {this.state.productList.map((item, idex) => (
-              <div
-                to={item.linkToProduct}
-                onClick={() => this.setState({ display: item })}
-                key={idex}
-              >
-                <div
-                  className={
-                    this.state.display.id === item.id
-                      ? "product-container open"
-                      : "product-container"
-                  }
+            {this.state.productList.map((item, index) => (
+              
+                <Link
+                  to={item.linkToProduct}
+                  onClick={() => this.setState({ display: item })}
+                  key={index}
                 >
-                  <div className="blond">
-                    <img className="blond" src={item.mainImg} alt="" />
+                  <div
+                    className={
+                      this.state.display.id === item.id
+                        ? "product-container open"
+                        : "product-container"
+                    }
+                  >
+                    <div className="blond">
+                      <img className="blond" src={item.mainImg} alt="" />
+                    </div>
+                    <div className="type">{item.name}</div>
                   </div>
-                  <div className="type">{item.name}</div>
-                </div>
-              </div>
+                </Link>
+              
             ))}
           </div>
 
