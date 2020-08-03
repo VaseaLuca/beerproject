@@ -28,7 +28,7 @@
   font-size: 8rem;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
-  line-height: 1.02em;
+  line-height: 1.2em;
   padding: 0 25px;
   margin-bottom: 10px;
 }
@@ -59,7 +59,16 @@
   left: 0;
   z-index:0;
 }
-
+@media all and (max-width: 2700px) {
+  .home {
+    height: 120vh;
+  }
+  .screen {
+    max-width: 2400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 @media all and (max-width: 2400px) {
   .screen {
@@ -78,6 +87,9 @@
 }
 
 @media all and (max-width: 1090px) {
+  .home{
+    height: 150vh;
+  }
   .screen {
     max-width: 900px;
     margin-left: auto;
@@ -86,6 +98,9 @@
 }
 
 @media all and (max-width: 900px) {
+  .home {
+    height: 120vh;
+  }
   .screen {
     max-width: 700px;
     margin-left: auto;
@@ -106,6 +121,9 @@
 }
 
 @media all and (max-width: 700px) {
+  .home {
+    height: 100vh;
+  }
   .screen {
     max-width: 600px;
     margin-left: auto;
@@ -122,6 +140,9 @@
 }
 
 @media all and (max-width: 600px) {
+  .home {  
+    height: 100vh;
+  }
   .screen {
     max-width: 300px;
     margin-left: auto;

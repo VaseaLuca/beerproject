@@ -6,7 +6,6 @@ import './Contact.css';
 const Contact = () => {
 
   return (
-    <div>
       <div className="background-block">
         <div className="main-block">
           <div className="contact-list">
@@ -50,7 +49,7 @@ const Contact = () => {
           <Footer className="footer-contact" />
         </div>
       </div>
-    </div>
+
   );
 }
 

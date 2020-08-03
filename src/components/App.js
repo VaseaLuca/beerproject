@@ -29,6 +29,7 @@ super(props)
     this.setState({ sideDrawerOpen: false });
   };
 
+
   render() {
 
     let backDrop;
@@ -46,7 +47,7 @@ super(props)
             <main className='main'>
               <Route path="/" exact component={Home} />
               <Route path="/produse" exact component={BereaNoastra} />
-              <Route path="/produse/:name" exact component={ProductPresentationPage}  />
+              <Route path="/produse/:name" exact component={ProductPresentationPage} />
               <Route path="/turul-berii" exact component={TurulBerii} />
               <Route path="/despre-noi" exact component={DespreNoi} />
               <Route path="/blog" exact component={Blog} />

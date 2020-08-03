@@ -93,7 +93,22 @@
   padding: 45px 0;
 }
 
+@media all and (max-width: 2700px) {
+  .constructor {
+    height: 160vh;
+  }
+
+  .main-constructor {
+    max-width: 2400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media all and (max-width: 2400px) {
+  .constructor{
+    height: 160vh;
+  }
   .main-constructor {
     max-width: 1500px;
     margin-left: auto;
@@ -110,6 +125,9 @@
 }
 
 @media all and (max-width: 1090px) {
+  .constructor{
+    height: 140vh;
+  }
   .main-constructor {
     max-width: 900px;
     margin-left: auto;
