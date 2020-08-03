@@ -60,8 +60,8 @@
   z-index:0;
 }
 @media all and (max-width: 2700px) {
-  .home {
-    height: 120vh;
+  .home{
+    height: 100vh;
   }
   .screen {
     max-width: 2400px;
@@ -79,6 +79,7 @@
 }
 
 @media all and (max-width: 1500px) {
+
   .screen {
     max-width: 1300px;
     margin-left: auto;
@@ -88,7 +89,7 @@
 
 @media all and (max-width: 1090px) {
   .home{
-    height: 150vh;
+    height: 120vh;
   }
   .screen {
     max-width: 900px;
