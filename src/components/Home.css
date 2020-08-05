@@ -143,6 +143,10 @@
 }
 
 @media (min-width: 200px) and (max-width:480px) {
+  .screen{
+   margin-top: 150px;
+   margin-bottom: 150px;
+  }
   .introduction-section{
     font-size: 2.7em;
   }
