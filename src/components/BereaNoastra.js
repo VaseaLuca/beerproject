@@ -14,7 +14,7 @@ const Produse = (props) => {
 
   return (
     <div className="flex-section">
-      <video className="background-block" autoPlay muted loop>
+      <video className="background-block" autoPlay playsInline muted loop>
         <source className="background-video" src={back_video} />
       </video>
 

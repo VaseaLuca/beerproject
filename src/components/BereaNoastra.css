@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 .flex-section {
   display:flex;
   flex-direction: column;
@@ -59,20 +58,16 @@ transition: transform 500ms ease-in-out;
   opacity: 0.6;
   transition: transform 500ms ease-in;
 }
-
 @media all and (max-width: 970px) {
   @viewport {width: auto }
    .produse-footer {
     display: none !important;
     padding: 0 25px;
-
   }
 }
-
 .Berea-Noastra {
   padding: 35px 0 35px 0;
 }
-
 .produse-footer {
   margin: 0 53px 0 53px;
   padding: 0 15px 0 15px;
@@ -80,14 +75,12 @@ transition: transform 500ms ease-in-out;
   align-items: center;
   font-size: 16px;
   color: black;
- 
 }
 .produse-footer i {
   color: black;
   margin: 0 10px 0 10px !important;
   font-size: 19px !important;
 }
-
 .produse-footer i:hover {
   transition: 0.17s ease-in-out;
   opacity: 0.6;

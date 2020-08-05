@@ -6,32 +6,31 @@ import './Contact.css';
 const Contact = () => {
 
   return (
-      <div className="background-block">
-        <div className="main-block">
-          <div className="contact-list">
-            <ul className="ul-list">
-              <li className="info-list">
-                Linia Fierbinte <br />
-                <a href="tel:055 8003 4555">055 8003 4555 (Gratuit)</a>
-              </li>
-              <li className="info-list">
-                <a href="https://telegram.org/tour/channels">
-                  <i className="telegram icon"></i>
-                </a>
-                Bere Chișinău
-              </li>
-              <li className="info-list">
-                Pentru Programare Vizite la Fabrică <br />
-                <a href="tel:055 5055 2222">055 5055 2222 (Gratuit)</a>
-              </li>
-              <li className="info-list">
-                <a href="https://telegram.org/tour/channels">
-                  <i className="telegram icon"></i>
-                </a>
-                Turul Berii Chișinău
-              </li>
-            </ul>
-          </div>
+    <div className="contact">
+      <div className="main-block">
+        <div className="contact-list">
+          <ul className="ul-list">
+            <li className="info-list">
+              Linia Fierbinte <br />
+              <a href="tel:055 8003 4555">055 8003 4555 (Gratuit)</a>
+            </li>
+            <li className="info-list">
+              <a href="https://telegram.org/tour/channels">
+                <i className="telegram icon"></i>
+              </a>
+              Bere Chișinău
+            </li>
+            <li className="info-list">
+              Pentru Programare Vizite la Fabrică <br />
+              <a href="tel:055 5055 2222">055 5055 2222 (Gratuit)</a>
+            </li>
+            <li className="info-list">
+              <a href="https://telegram.org/tour/channels">
+                <i className="telegram icon"></i>
+              </a>
+              Turul Berii Chișinău
+            </li>
+          </ul>
           <div className="googleMaps">
             <iframe
               title="Google Maps"
@@ -49,7 +48,7 @@ const Contact = () => {
           <Footer className="footer-contact" />
         </div>
       </div>
-
+    </div>
   );
 }
 
