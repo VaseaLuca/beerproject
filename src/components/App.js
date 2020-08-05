@@ -6,8 +6,6 @@ import SideDrawer from './SideDrawer/SideDrawer';
 import Backdrop from './Backdrop/Backdrop';
 import BereaNoastra from "./BereaNoastra";
 import TurulBerii from "./TurulBerii";
-import DespreNoi from "./DespreNoi";
-import Blog from "./Blog";
 import Contact from "./Contact";
 import Home from "./Home";
 import ProductPresentationPage from './ProductPresentationPage';
@@ -49,8 +47,6 @@ super(props)
               <Route path="/produse" exact component={BereaNoastra} />
               <Route path="/produse/:name" exact component={ProductPresentationPage} />
               <Route path="/turul-berii" exact component={TurulBerii} />
-              <Route path="/despre-noi" exact component={DespreNoi} />
-              <Route path="/blog" exact component={Blog} />
               <Route path="/contact" exact component={Contact} />
             </main>
           </div>

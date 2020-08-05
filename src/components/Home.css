@@ -15,7 +15,7 @@
 }
 
 .screen {
-  max-width: 1500px;
+  max-width: 125vw;
   margin-left: auto;
   margin-right: auto;
   z-index: 2;
@@ -25,31 +25,33 @@
 .introduction-section {
   color: #fff;
   font-weight: 700;
-  font-size: 8rem;
+  font-size: 9em;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   line-height: 1.2em;
   padding: 0 25px;
-  margin-bottom: 10px;
+  margin-bottom: 0.78vw;
 }
 
 .know-more {
   color: #fff;
-  font-size: 16px;
+  font-size: 1.5em;
   font-family: Montserrat, sans-serif;
   font-weight: 800;
-  margin-bottom: 10px;
+  margin-bottom: 1em;
 }
 
 .button {
-  font-family: Montserrat, sans-serif !important;
-  background-color: transparent !important;
-  border: 3px solid !important;
-  color: #fff !important;
-  border-radius: 0 !important;
-  margin: 0 0 14px 0 !important;
-  text-transform: uppercase !important;
-  padding: 15px 18px !important;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  background-color: transparent;
+  border: 3px solid;
+  color: #fff;
+  border-radius: 0;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  padding: 14px 30px;
 }
 
 .backbeer {
@@ -59,104 +61,119 @@
   left: 0;
   z-index:0;
 }
-@media all and (max-width: 2700px) {
-  .home{
-    height: 100vh;
-  }
-  .screen {
-    max-width: 2400px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media all and (max-width: 2400px) {
-  .screen {
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media all and (max-width: 1500px) {
-
-  .screen {
-    max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media all and (max-width: 1090px) {
-  .home{
-    height: 120vh;
-  }
-  .screen {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media all and (max-width: 900px) {
+@media (min-width: 1281px) {
   .home {
-    height: 120vh;
-  }
-  .screen {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+
   }
 
-  .introduction-section {
-    font-size: 6.5rem;
+  .introduction-section{
+    font-weight: 8em;
+  }
+
+  .button {
+    font-size: 1.4em;
+  }
+  .screen {
+
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .home {
+
+  }
+
+  .introduction-section{
+    font-size: 5.8em;
   }
 
   .know-more {
-    font-size: 12px;
+    font-size: 1.2em;
   }
-
   .button {
-    font-size: 18px !important;
+    font-size: 1em;
+  }
+  .screen {
+
   }
 }
 
-@media all and (max-width: 700px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .home {
-    height: 100vh;
+
+  }
+
+  .introduction-section{
+    font-size: 5em;
+  }
+
+  .know-more {
+       font-size: 1em;
+  }
+  .button {
+    font-size: 0.8em;
   }
   .screen {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .introduction-section {
-    font-size: 5rem;
-  }
 
-  .button {
-    font-size: 14px !important;
-  }
-
+  } 
 }
 
-@media all and (max-width: 600px) {
-  .home {  
-    height: 100vh;
+@media (min-width: 768px) and (max-width:1024px) and (orientation:landscape) {
+  .home {
+
+  }
+
+  .introduction-section{
+    font-size: 4rem;
+  }
+
+  .know-more {
+    font-size: 1em;
+  }
+  .button {
+    font-size: 0.7em;
   }
   .screen {
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+
+  }
+}
+
+@media (min-width: 481px) and (max-width:767px) {
+  .home {
+
+  }
+  .introduction-section{
+    font-size: 3.5em ;
   }
 
-  .introduction-section {
-    font-size: 3.5rem;
-    line-height: 4rem;
+  .know-more {
+    font-size: 0.9em;
   }
-
   .button {
-    font-size: 10px !important;
+   font-size: 0.7em;
+  }
+  .screen {
+
+  }
+}
+
+@media (min-width: 200px) and (max-width:480px) {
+  .home {
+
+  }
+
+  .introduction-section{
+    font-size: 2.7em;
+  }
+
+  .know-more {
+    font-size: 0.9em;
+  }
+  .button {
+    font-size: 0.7em;
+  }
+  .screen {
+
   }
 
 }

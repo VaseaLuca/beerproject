@@ -1,5 +1,7 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+
+
 import "./ProductPresentationPage.css";
 import blonda from "../assets/blonda.png";
 import tare from "../assets/bere-tare.png";
@@ -12,7 +14,6 @@ import petBlonda from "../assets/bere-pet-blonda.png";
 import petBlonda15 from '../assets/bere-pet-blonda15.png';
 import petBLonda2x from '../assets/bere-pet-blonda2x.png';
 import DynamicBlock from './DynamicBlock';
-
 
 
 class ProductPresentationPage extends React.Component {
@@ -132,7 +133,6 @@ class ProductPresentationPage extends React.Component {
                 <div className="type">Chișinău Blondă</div>
               </div>
             </Link>
-
  */}
         </div>
       </div>

@@ -25,13 +25,7 @@ const DynamicBlock = (props) => {
     <div className="mother-block">
       <div className="first-block">
         <Slider {...firstSlider}>
-
           { sliderImg }
-
-          {/* <div>
-            <img src={props.slider1} alt="" />
-          </div>
- */}
         </Slider>
       </div>
       <div className="second-block">

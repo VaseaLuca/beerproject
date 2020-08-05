@@ -7,7 +7,7 @@ import Footer from './Footer';
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
-const Produse = () => {
+const Produse = (props) => {
 
   const myRef = useRef(null);
   const executeScroll = () => scrollToRef(myRef);

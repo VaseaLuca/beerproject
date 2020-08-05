@@ -33,7 +33,7 @@ const Product = (props) =>  {
     return (
       <div className="product-overview">
         <div className="product">
-          <Link to="/produse/chisinau-blonda">
+          <Link to={{ pathname: "/produse/chisinau-blonda", state:{producstList: true} }}>
             <div className="product-info">
               <div className="product-title">
                 <div className="Chisinau">Chișinău Blondă</div>

@@ -14,15 +14,15 @@ const TurulBerii = () => {
       <div className="constructor">
         <div className="main-constructor">
           <div className="image">
-            <img className='tour-img' src={tour_img} alt="" />
+            <img className="tour-img" src={tour_img} alt="" />
           </div>
-          
+
           <div className="tour-description">
             <div className="description">
               <div className="tour-title">
                 Bine ai venit la Turul Berii Ohișinău
               </div>
-              <p>Excursion can take up to 80 minutes and includes:</p>
+              <p>Excursia durează 90 minute și cuprinde:</p>
               <ul className="ul-left">
                 <li>Prezentarea generală a companiei</li>
                 <li>Vizitarea secțiilor de producere</li>
@@ -47,11 +47,11 @@ const TurulBerii = () => {
               </div>
             </div>
           </div>
-          <div className='tourPhotoColumn'>
-            <img className='tourPhotoColumn-img' src={tour_column} alt=""/>
+          <div className="tourPhotoColumn">
+            <img className="tourPhotoColumn-img" src={tour_column} alt="" />
           </div>
         </div>
-        <div className='footer-section'>
+        <div className="footer-section">
           <Footer className="footer-turul" />
         </div>
       </div>
