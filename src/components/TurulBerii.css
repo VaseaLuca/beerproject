@@ -12,7 +12,6 @@
   flex-direction: column;
   min-height: 100vh;
 }
-
 .main-constructor {
   display: flex;
   justify-content: center;
@@ -22,22 +21,18 @@
   margin-top:150px;
   margin-bottom:100px;
 }
-
 .image {
   justify-content: flex-end;
   display: flex;
   margin-left: 25px;
 }
-
 .tour-img {
   width: 300px;
   border-radius: 4px 0 0 4px;
 }
-
 .tourPhotoColumn {
   display: none;
 }
-
 .tour-description {
   display: flex;
   color: #fff;
@@ -51,32 +46,26 @@
   font-family: Montserrat, sans-serif;
   margin-right: 25px;
 }
-
 .description {
   font-size: 1.3em;
   text-align: center;
   font-weight: 600;
-
 }
-
 .tour-title {
   font-weight: 800;
   font-size: 1.7em;
   padding-bottom: 25px;
   line-height: 1.2em;
 }
-
 .ul-left {
   text-align: left;
   margin-bottom: 30px;
 }
-
 .text {
   font-size: 1em;
   font-weight: 600;
   line-height: 1.6rem;
   margin-bottom: 30px;
-
 }
 .text span {
   color: #de2f33;
@@ -95,7 +84,6 @@
   width: 900px;
   padding: 45px 0;
 }
-
 @media (min-width: 1025px) and (max-width: 1280px) {
   .main-constructor {
     margin-top: 150px;
@@ -124,7 +112,6 @@
   }
   .footer-section {}
 }
-
 @media (min-width: 768px) and (max-width: 1024px) {
   .main-constructor {
     display: block;
@@ -242,7 +229,6 @@
     display: block;
     margin-top: 150px;
     margin-bottom: 150px;
-    
   }
   .tour-title {
     font-size: 0.79em;
@@ -275,7 +261,6 @@
   .image {
     margin-left: 0;
   }
-
   .tour-img {
     display: none;
   }

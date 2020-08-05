@@ -80,14 +80,9 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  .home {
-
-  }
-
   .introduction-section{
     font-size: 5.8em;
   }
-
   .know-more {
     font-size: 1.2em;
   }
@@ -99,16 +94,10 @@
     margin-bottom: 250px;
   }
 }
-
 @media (min-width: 768px) and (max-width: 1024px) {
-  .home {
-
-  }
-
   .introduction-section{
     font-size: 5em;
   }
-
   .know-more {
        font-size: 1em;
   }
@@ -122,10 +111,6 @@
 }
 
 @media (min-width: 768px) and (max-width:1024px) and (orientation:landscape) {
-  .home {
-
-  }
-
   .introduction-section{
     font-size: 4rem;
   }
@@ -141,15 +126,10 @@
     margin-bottom: 150px;
   }
 }
-
 @media (min-width: 481px) and (max-width:767px) {
-  .home {
-
-  }
   .introduction-section{
     font-size: 3.5em ;
   }
-
   .know-more {
     font-size: 0.9em;
   }
@@ -163,22 +143,13 @@
 }
 
 @media (min-width: 200px) and (max-width:480px) {
-  .home {
-
-  }
-
   .introduction-section{
     font-size: 2.7em;
   }
-
   .know-more {
     font-size: 0.9em;
   }
   .button {
     font-size: 0.7em;
   }
-  .screen {
-
-  }
-
 }
