@@ -10,6 +10,7 @@ import Contact from "./Contact";
 import Home from "./Home";
 import ProductPresentationPage from './ProductPresentationPage';
 import './App.css';
+import AgeForm from './AgeForm';
 
 class App extends React.Component {
 constructor(props){
@@ -23,33 +24,34 @@ super(props)
     });
   };
 
-  backdropClickHandler = () => {
-    this.setState({ sideDrawerOpen: false });
-  };
-
 
   render() {
 
     let backDrop;
 
     if (this.state.sideDrawerOpen) {
-      backDrop = <Backdrop click={this.backdropClickHandler} />;
+      backDrop = <Backdrop click={() => this.setState({ sideDrawerOpen: false })} />;
     }
 
     return (
       <div>
-          <div style={{ height: "100%" }}>
-            <Toolbar drawerToggleClickHandler={this.drawerToggleClickHandler} />
-            <SideDrawer show={this.state.sideDrawerOpen} />
-            {backDrop}
-            <main className='main'>
-              <Route path="/" exact component={Home} />
-              <Route path="/produse" exact component={BereaNoastra} />
-              <Route path="/produse/:name" exact component={ProductPresentationPage} />
-              <Route path="/turul-berii" exact component={TurulBerii} />
-              <Route path="/contact" exact component={Contact} />
-            </main>
-          </div>
+        <div style={{ height: "100%" }}>
+          <Route path="/age-verification" exact component={AgeForm} />
+          <Toolbar drawerToggleClickHandler={this.drawerToggleClickHandler} />
+          <SideDrawer show={this.state.sideDrawerOpen} />
+          {backDrop}
+          <main className="main">
+            <Route path="/" exact component={Home} />
+            <Route path="/produse" exact component={BereaNoastra} />
+            <Route
+              path="/produse/:name"
+              exact
+              component={ProductPresentationPage}
+            />
+            <Route path="/turul-berii" exact component={TurulBerii} />
+            <Route path="/contact" exact component={Contact} />
+          </main>
+        </div>
       </div>
     );
   }
