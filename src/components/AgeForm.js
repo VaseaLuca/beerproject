@@ -6,11 +6,16 @@ import './AgeForm.css';
 class AgeForm extends React.Component {
   constructor(props){
     super(props);
-
     this.state = { day: '', month: '', year: '' };
-
   }
+  
 
+onSubmitForm = (e) => {
+  e.preventDefault();
+  this.props.onSubmit(this.state.year)
+
+  
+}
 
 render() {  
 
@@ -18,7 +23,7 @@ render() {
     <div className="age-form">
       <div className="age-block">
         <div className="greetings">Bine Ai Venit</div>
-        <form action="" noValidate>
+        <form action='/' noValidate onSubmit={this.onSubmitForm}>
           <div className="select-age">
                               {     /* Day */     }
             {this.state.day > 0 && this.state.day < 32 ? 

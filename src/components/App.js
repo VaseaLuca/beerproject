@@ -10,7 +10,7 @@ import Contact from "./Contact";
 import Home from "./Home";
 import ProductPresentationPage from './ProductPresentationPage';
 import './App.css';
-import AgeForm from './AgeForm';
+
 
 class App extends React.Component {
 constructor(props){
@@ -24,22 +24,21 @@ super(props)
     });
   };
 
+onFormSubmit (year) {
+  console.log(year)
+
+}
 
   render() {
-
-    let backDrop;
-
-    if (this.state.sideDrawerOpen) {
-      backDrop = <Backdrop click={() => this.setState({ sideDrawerOpen: false })} />;
-    }
-
+      
     return (
       <div>
         <div style={{ height: "100%" }}>
-          <Route path="/age-verification" exact component={AgeForm} />
           <Toolbar drawerToggleClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />
-          {backDrop}
+          {this.state.sideDrawerOpen ? (
+            <Backdrop click={() => this.setState({ sideDrawerOpen: false })} />
+          ) : null}
           <main className="main">
             <Route path="/" exact component={Home} />
             <Route path="/produse" exact component={BereaNoastra} />
