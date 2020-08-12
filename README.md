@@ -1,2 +1,2 @@
-- Here is my first React App, still working on it.
+- Here is my first React App
 - https://efesproject.netlify.app/
